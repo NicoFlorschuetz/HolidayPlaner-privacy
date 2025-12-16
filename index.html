@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Datenschutzerklärung – HolidayPlaner</title>
+  <style>
+    body { font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 0; background:#0b0b0c; color:#f2f2f2; }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 18px; }
+    h1 { font-size: 28px; margin: 0 0 14px; }
+    h2 { font-size: 18px; margin: 22px 0 8px; }
+    p, li { line-height: 1.55; color: #d7d7d7; }
+    .card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.10); border-radius: 14px; padding: 18px; }
+    a { color: #7dd3fc; }
+    .muted { color:#a8a8a8; font-size: 13px; margin-top: 18px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>Datenschutzerklärung – HolidayPlaner</h1>
+      <p>HolidayPlaner respektiert deine Privatsphäre.</p>
+
+      <h2>Datenerhebung</h2>
+      <p>HolidayPlaner erhebt <strong>keine personenbezogenen Daten</strong>. Alle eingegebenen Informationen (z. B. Reisen, Budgets, Notizen) werden ausschließlich lokal auf deinem Gerät gespeichert oder – falls aktiviert – über iCloud mit deinen eigenen Geräten synchronisiert.</p>
+
+      <h2>Tracking & Werbung</h2>
+      <p>HolidayPlaner verwendet <strong>keine Werbung</strong>, <strong>kein Tracking</strong> und keine Analyse-Tools von Drittanbietern.</p>
+
+      <h2>In-App-Käufe</h2>
+      <p>In-App-Käufe werden über den App Store abgewickelt. Dabei gelten die Datenschutzbestimmungen von Apple. HolidayPlaner erhält keine Zahlungsdaten.</p>
+
+      <h2>Karten & Wetter</h2>
+      <p>Wenn du Karten- oder Wetterfunktionen nutzt, werden Standortdaten nur zur Anzeige von Inhalten verwendet. Es erfolgt keine Speicherung oder Weitergabe dieser Daten durch HolidayPlaner.</p>
+
+      <h2>Datenweitergabe</h2>
+      <p>Es findet keine Weitergabe von Daten an Dritte statt.</p>
+
+      <h2>Kontakt</h2>
+      <p>Bei Fragen zum Datenschutz: <strong>nflorschuetz0108@gmail.com</strong></p>
+
+      <p class="muted">Stand: <span id="date"></span></p>
+    </div>
+  </main>
+  <script>
+    document.getElementById("date").textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
